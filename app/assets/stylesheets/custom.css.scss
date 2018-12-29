@@ -32,6 +32,7 @@ $navbar-default-bg: black;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .btn-xlarge {
@@ -63,4 +64,8 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+.container h1:first-child{
+  text-align: center;
 }
