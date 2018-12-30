@@ -50,6 +50,7 @@ GEM
     autoprefixer-rails (9.4.3)
       execjs
     awesome_print (1.8.0)
+    bcrypt (3.1.12)
     bindex (0.5.0)
     bootsnap (1.3.2)
       msgpack (~> 1.0)
@@ -75,7 +76,6 @@ GEM
     chromedriver-helper (2.1.0)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
-    coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -132,11 +132,6 @@ GEM
       concurrent-ruby-ext (>= 0.9.0)
       railties (>= 4.0.0)
     pg (1.1.3)
-    pry (0.12.2)
-      coderay (~> 1.1.0)
-      method_source (~> 0.9.0)
-    pry-rails (0.3.9)
-      pry (>= 0.10.4)
     public_suffix (3.0.3)
     puma (3.12.0)
     rack (2.0.6)
@@ -237,6 +232,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  bcrypt
   bootsnap (>= 1.1.0)
   bootstrap-sass (~> 3.4.0)
   bullet
@@ -250,7 +246,6 @@ DEPENDENCIES
   meta_request
   peek
   pg
-  pry-rails
   puma (~> 3.11)
   rails (~> 5.2.2)
   rails_12factor

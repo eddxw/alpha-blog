@@ -6,6 +6,8 @@ ruby '2.6.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
 
+gem 'bcrypt'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 
@@ -55,7 +57,7 @@ group :development do
   gem "awesome_print", require:"ap"
   gem "meta_request"
   gem 'peek'
-  gem "pry-rails"
+  # gem "pry-rails"
   gem 'bullet'
 end
 
