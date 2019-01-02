@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'signup', to: 'users#new'
   resources :users, except: [:new]
 
-  mount Peek::Railtie => '/peek'
+  # mount Peek::Railtie => '/peek'
   root to: 'home#show'
 
   get 'login', to: 'sessions#new'
