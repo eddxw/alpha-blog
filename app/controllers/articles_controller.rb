@@ -59,7 +59,4 @@ class ArticlesController < ApplicationController
       redirect_to root_path
     end
   end
-  def require_same_user2
-    {flash[:danger] = 'You can only edit or edit your own articles', redirect_to root_path} if current_user != @article.user
-  end
 end
